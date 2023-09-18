@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 22, 2);
+    
+}
+header {
+    background-color: rgb(150, 75, 0);
+    width: 95%;
+    height: 100px;
+    margin-left: 20px;
+    border: double goldenrod;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+main {
+    background-color: rgb(150, 75, 0);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 95%;
+    height: 500px;
+    border: double goldenrod;
+}
+.titulo {
+    font-size: 40px;
+    color: rgb(116, 242, 217);
+    font-family: serif;
+}
+.subtitulo {
+    font-size: 40px;
+    color: goldenrod;
+    font-family: serif;
+}
+.nome {
+    margin-left: 0%;
+    float: left;
+    text-align: center;
+}
+.img {
+    border: double goldenrod;
+    margin-left: 74%;
+    float: right;
+ }
+
+ .texto {
+    font-size: 30px;
+    color: white;
+    margin-left: 5%;
+    float: left;
+    display: flex;
+    width: 60%;
+ }
+ .img2 {
+    border: double goldenrod;
+    margin-left: 74%;
+    float: right;
+    margin-top: 3%;
+ }
